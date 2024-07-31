@@ -1,0 +1,24 @@
+{
+    "name": "srt",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "pnpm run build && wrangler pages dev",
+        "deploy": "pnpm run build && wrangler pages deploy"
+    },
+    "dependencies": {
+        "hono": "^4.5.3",
+        "xxhashjs": "^0.2.2"
+    },
+    "devDependencies": {
+        "@cloudflare/workers-types": "^4.20240529.0",
+        "@hono/vite-cloudflare-pages": "^0.4.2",
+        "@hono/vite-dev-server": "^0.13.1",
+        "@originjs/vite-plugin-commonjs": "^1.0.3",
+        "prettier": "^3.3.3",
+        "prettier-plugin-tailwindcss": "^0.6.5",
+        "vite": "^5.2.12",
+        "wrangler": "^3.57.2"
+    }
+}

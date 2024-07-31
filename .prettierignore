@@ -1,0 +1,22 @@
+.DS_Store
+node_modules
+/packages/frontend/.output
+/packages/frontend/.vinxi
+/packages/frontend/dist
+/packages/contracts/artifacts
+/packages/contracts/cache
+.env
+.env.*
+!.env.example
+
+# Ignore files for PNPM, NPM and YARN
+pnpm-lock.yaml
+pnpm-workspace.yaml
+package-lock.json
+yarn.lock
+
+/.github
+
+/.vscode
+/.idea
+
